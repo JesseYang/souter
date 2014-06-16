@@ -1,10 +1,10 @@
 development:
   # Configure available database sessions. (required)
   sessions:
-    offset_source:
+    offset:
       # Defines the name of the default database that Mongoid can connect to.
       # (required).
-      database: souter_development
+      database: tracker_production
       # Provides the hosts the default session can connect to. Must be an array
       # of host:port pairs. (required)
       hosts:
