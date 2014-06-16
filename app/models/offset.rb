@@ -1,7 +1,7 @@
 require 'csv'
 class Offset
   include Mongoid::Document
-  store_in collection: "offset", database: "tracker_production", session: "offset"
+  store_in collection: "offsets", database: "tracker_production", session: "offset"
   field :lng, :type => Float
   field :lat, :type => Float
   field :offset_lng, :type => Float
