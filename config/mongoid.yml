@@ -29,7 +29,7 @@ development:
         # retry_interval: 1
     offset:
       database: tracker_production
-      hotss:
+      hosts:
         - localhost:27017
       options:
   # Configure Mongoid specific options. (optional)
